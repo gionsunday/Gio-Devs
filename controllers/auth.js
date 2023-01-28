@@ -13,8 +13,8 @@ const newMessage = async (req, res) => {
             }
         })
         const mailOptions1 = {
-            from: 'richardadaji@gmail.com',
-            to: email,
+            from: 'giodevswebservices@gmail.com',
+            to: 'giodevswebservices@gmail.com',
             subject: 'New Message For Gio-Devs',
             html: `
             <body style="background-color:rgb(255, 235, 235); padding:10px; height:100%; width:100%">
@@ -32,7 +32,7 @@ const newMessage = async (req, res) => {
             `
         };
         const mailOptions2 = {
-            from: 'richardadaji@gmail.com',
+            from: 'giodevswebservices@gmail.com',
             to: email,
             subject: 'From Gio-Devs',
             html: `
